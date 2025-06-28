@@ -68,8 +68,27 @@ if answer.lower() == 'i lovd you':
     score += 2
 else:
     print("Incorrect")
+
+answer = input("What does FAQ stands for? ")   
+if answer.lower() == 'frequently asked questions':
+    print("Correct")
+    score += 2
+else:
+    print("Incorrect")
     
-     
+answer = input("What does CEO stands for? ")   
+if answer.lower() == 'chief executive officer':
+    print("Correct")
+    score += 2
+else:
+    print("Incorrect")
+
+answer = input("What does GOAT stands for? ")   
+if answer.lower() == 'greatest of all time':
+    print("Correct")
+    score += 2
+else:
+    print("Incorrect")
     
 print(f'your total score is {score}')
     
